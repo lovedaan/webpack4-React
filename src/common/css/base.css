@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #ccc;
+    h1{
+        width: 200px;
+        height: 200px;
+        border: 1px solid #000;
+        text-align: center;
+        line-height: 200px;
+        color:blue;
+        font-size: 30px;
+        transform: translateX(50px);
+    }
+}
