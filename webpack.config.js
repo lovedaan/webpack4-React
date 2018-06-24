@@ -128,6 +128,7 @@ if (ENV === 'production') {
         port: 8000,
         open: true,
         hot: true,
+        historyApiFallback: true,
         watchContentBase: true,
         proxy: {
             '/api': {
