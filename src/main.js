@@ -18,11 +18,11 @@ import {
     Switch
 } from 'react-router-dom';
 
-import App from './App';
+//import App from './App';
 import 'common/css/base.css';
 import {
     counter
-} from './redux.index';
+} from './redux/redux-movie';
 
 const store = createStore(counter, compose(
     applyMiddleware(thunk),
